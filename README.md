@@ -1,0 +1,1 @@
+# VMware-Log-Insight-Content-Packs
