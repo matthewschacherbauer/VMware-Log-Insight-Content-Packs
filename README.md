@@ -11,7 +11,7 @@ Monitor the activity and issued certificates from Enterprise Certificate Authori
 
 ### Microsoft AD Domain Services
 
-Provides supplemental dashboards for the official Active Directory content pack. The official content pack must be installed and agent groups properly configured to capture the required events. LDAP Signing and NTLM Auditing require additional configuration on Domain Controllers, as these events do not generate under default configurations.
+Provides supplemental dashboards for the official Active Directory content pack. LDAP Signing and NTLM Auditing require additional configuration on Domain Controllers, as these events do not generate under default configurations.
 
 These dashboards allow an administrator to specifically target activities like:
 * LDAP Signing and Channel Binding Compliance
@@ -45,6 +45,24 @@ Monitor the activity and load on App Volumes manager servers.
 | --- | --- |
 | ![Manager Activity](VMware%20App%20Volumes/resources/ws-vmwavm-01.png?raw=true) | ![Attach Operations](VMware%20App%20Volumes/resources/ws-vmwavm-02.png?raw=true) |
 
+### VMware Horizon View
+
+Provides supplemental dashboards for the official VMware Horizon content pack. Additional agent groups are provided within the content pack to capture events from desktops. For full functionality, Log Insight must be deployed within the desktop image.
+
+* Connection Server event monitoring
+* Desktop Agent event monitoring
+* Horizon Logon Monitor event capture
+* Pool counts by size and status
+* Popular catalog items and utilization
+* Disconnect event monitoring
+* Session start failure troubleshooting
+
+|     |     |
+| --- | --- |
+| ![Broker Events](VMware%20Horizon/resources/ws-vmwhzn-01.png?raw=true) | ![Disconnect Auditing](VMware%20Horizon/resources/ws-vmwhzn-05.png?raw=true) |
+| ![Desktop Agent Status](VMware%20Horizon/resources/ws-vmwhzn-06.png?raw=true) | ![Logon Time](VMware%20Horizon/resources/ws-vmwhzn-07.png?raw=true) |
+
+
 ### VMware Unified Access Gateway
 
 Monitor the activity of your VMware Unified Access Gateway appliances. This content pack is geared toward the use of Unified Access Gateways in the Horizon use case.
@@ -57,7 +75,7 @@ Monitor the activity of your VMware Unified Access Gateway appliances. This cont
 
 ### VMware WorkspaceOne Access
 
-Provides supplemental dashboards for the official VMware Identity Manager content pack. The official content pack must be installed and agent groups properly configured to capture the required events.
+Provides supplemental dashboards for the official VMware Identity Manager content pack.
 
 These dashboards allow an administrator to specifically target activities like:
 * Services performing SAML token validation against WorkspaceOne Access appliances
