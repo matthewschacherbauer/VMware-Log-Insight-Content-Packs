@@ -5,13 +5,13 @@ This repository contains VMware Log Insight content packs containing sanitized d
 
 ### Microsoft AD Certificate Services
 
-Monitor the activity and issued certificates from Enterprise Certificate Authorities running Microsoft Active Directory Certificate Services.
+This Content Pack monitors the activity and issued certificates from Enterprise Certificate Authorities running Microsoft Active Directory Certificate Services.
 
 ![Certificate Services](MS%20AD%20Certificate%20Services/resources/ws-msadcs-01.png?raw=true)
 
 ### Microsoft AD Domain Services
 
-Provides supplemental dashboards for the official Active Directory content pack. LDAP Signing and NTLM Auditing require additional configuration on Domain Controllers, as these events do not generate under default configurations.
+This Content Pack provides supplemental dashboards for the official Active Directory content pack. LDAP Signing and NTLM Auditing require additional configuration on Domain Controllers, as these events do not generate under default configurations.
 
 These dashboards allow an administrator to specifically target activities like:
 * LDAP Signing and Channel Binding Compliance
@@ -25,7 +25,7 @@ These dashboards allow an administrator to specifically target activities like:
 
 ### Microsoft RD Licensing Manager
 
-Monitor the Remote Desktop Licensing Manager for important events that may impact service.
+This Content Pack monitors the activity and issued licenses from the Microsoft Remote Desktop Licensing Manager service.
 
 * Activity for issuing and renewing licenses
 * Track the quantity of version and type of licenses issued
@@ -35,7 +35,7 @@ Monitor the Remote Desktop Licensing Manager for important events that may impac
 
 ### VMware App Volumes
 
-Monitor the activity and load on App Volumes manager servers.
+This Content Pack monitors the activity and load on VMware App Volumes Manager servers.
 
 * Total operations over time
 * App Stack populatity and attach counts
@@ -45,9 +45,9 @@ Monitor the activity and load on App Volumes manager servers.
 | --- | --- |
 | ![Manager Activity](VMware%20App%20Volumes/resources/ws-vmwavm-01.png?raw=true) | ![Attach Operations](VMware%20App%20Volumes/resources/ws-vmwavm-02.png?raw=true) |
 
-### VMware Horizon View
+### VMware Horizon
 
-Provides supplemental dashboards for the official VMware Horizon content pack. Additional agent groups are provided within the content pack to capture events from desktops. For full functionality, Log Insight must be deployed within the desktop image.
+This Content Pack provides supplemental dashboards for the official VMware Horizon content pack. Additional agent groups are provided within the content pack to capture events from desktops. For full functionality, Log Insight must be deployed within the desktop image.
 
 * Connection Server event monitoring
 * Desktop Agent event monitoring
@@ -59,13 +59,12 @@ Provides supplemental dashboards for the official VMware Horizon content pack. A
 
 |     |     |
 | --- | --- |
-| ![Broker Events](VMware%20Horizon/resources/ws-vmwhzn-01.png?raw=true) | ![Disconnect Auditing](VMware%20Horizon/resources/ws-vmwhzn-05.png?raw=true) |
-| ![Desktop Agent Status](VMware%20Horizon/resources/ws-vmwhzn-06.png?raw=true) | ![Logon Time](VMware%20Horizon/resources/ws-vmwhzn-07.png?raw=true) |
+| ![Broker Events](VMware%20Horizon/resources/ws-vmwhzn-01.png?raw=true) | ![Logon Time](VMware%20Horizon/resources/ws-vmwhzn-07.png?raw=true) |
 
 
 ### VMware Unified Access Gateway
 
-Monitor the activity of your VMware Unified Access Gateway appliances. This content pack is geared toward the use of Unified Access Gateways in the Horizon use case.
+This Content Pack monitors the activity of your VMware Unified Access Gateway appliances and is geared toward the use of Unified Access Gateways in the Horizon use case.
 
 * Monitor the status, activity, and workload of each UAG
 * Monitor the start and end of Horizon sessions
@@ -75,7 +74,7 @@ Monitor the activity of your VMware Unified Access Gateway appliances. This cont
 
 ### VMware WorkspaceOne Access
 
-Provides supplemental dashboards for the official VMware Identity Manager content pack.
+This Content Pack provides supplemental dashboards for the official VMware Identity Manager content pack.
 
 These dashboards allow an administrator to specifically target activities like:
 * Services performing SAML token validation against WorkspaceOne Access appliances
